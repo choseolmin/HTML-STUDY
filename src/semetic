@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>title</title>
+    </head>
+    <body>
+        <header>
+            <h1></h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">홈</a></li>
+                    <li><a href="#about">소개</a></li>
+                    <li><a href="#contact">연락처</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about">
+            <h2>회사소개</h2>
+            <p>우리 회사는</p>
+            </section>
+
+            <article>
+                <h2>최신 소식</h2>
+                <p>새 제품 출시</p>
+                <time datetime="2024-05-08">24-05-08</time>
+            </article>
+
+            <aside>
+                <h3></h3>
+                <ul>
+                    <li><a href="#">관련기사</a></li>
+                    <li><a href="#">관련기사</a></li>
+                </ul>
+            </aside>
+        </main>
+
+        <footer>
+            <address>
+                연락처: <a href="mailto:josm100@naver.com">info@example.com</a>
+            </address>
+            <p>&copy; 2023 회사. 모든 권리 보유.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>열 병합 예시</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h2>분기별 제품 매출</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>카테고리</th>
+            <th>제품명</th>
+            <th>1분기</th>
+            <th>2분기</th>
+            <th>3분기</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">전자제품</td> <!-- 여기 열 병합 -->
+            <td>제품 B</td>
+            <td>$85</td>
+            <td>$90</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <!-- <td> 전자제품 </td> 은 위에서 병합했기 때문에 생략 -->
+            <td>제품 C</td>
+            <td colspan="2">1~2분기 합계: $210</td>
+            <td>$130</td>
+        </tr>
+        <tr>
+            <td>가구</td>
+            <td>제품 D</td>
+            <td>$85</td>
+            <td>$90</td>
+            <td>$100</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+
