@@ -1,34 +1,104 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <title>이상의 오감도</title>
+    <title>Self-Introduction</title>
 </head>
-
 <body>
-    <h1>제 1의 아해가 무섭다고 그리오.</h1>
-    <h2>제 2의 아해가 <strong>무섭다고</strong> 그리오.</h2>
-    <h3>제 3의 아해가 <i>무섭다고</i> 그리오.</h3>
-    <h4>제 4의 아해가 <u>무섭다고</u> 그리오.</h4>
-    <h5>제 5의 아해가 <s>무섭다고</s> 그리오.</h5>
-    <h6>제 6의 아해가 <sup>무섭다고</sup> 그리오.</h6>
 
-    <p>제 7의 아해가 <mark>무섭다고</mark> 그리오.</p>
-    <p>제 8의 아해가 <small>무섭다고</small> 그리오.</p>
-    <p>제 9의 아해가 <q>무섭다고</q> 그리오.</p>
+    <header>
+        <h1>자기소개서</h1>
+        <h2>목차</h2>
+        <nav>
+            <ul>
+                <li><a href="#name">이름</a></li>
+                <li><a href="#picture">사진</a></li>
+                <li><a href="#address">주소</a></li>
+                <li><a href="#education">학력</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
 
-    <blockquote>
-        <p>오감도</p>
-        <cite>- 이상</cite>
-    </blockquote>
+    <main>
+        <section id="name">
+            <h2>이름</h2>
+            <p><b>조설민<b></b></p>
+        </section>
 
-    <pre><code>
-    function greet() 
-    {
-        console.log("안녕하세요!");
-    }
-    </code></pre>
+        <hr>
+
+        <section id="picture">
+            <h2>사진</h2>
+            <a href="https://www.pokemonkorea.co.kr/town_2025/menu576">
+                <img src="images/selca.jpeg" alt="사진" width="300" height="200">
+            </a>
+            <p>이 사진을 누르면 사진을 찍은 장소를 알수 있습니다.</p>
+            <time datetime="2025-05-04">사진 촬영일: 2025년 5월 4일</time>
+        </section>
+
+        <hr>
+
+        <section id="address">
+            <h2>주소</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.7787879389766!2d127.05570777616245!3d37.51313522718788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca46a4cb562ef%3A0x7b791e85aa0df16b!2z7L2U7JeR7IqkIOyVhOy_oOyVhOumrOybgA!5e0!3m2!1sko!2skr!4v1746685400771!5m2!1sko!2skr""
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+        <hr>
+
+        <section id="education">
+            <h2>학력 사항</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>학교</th>
+                        <th>전공</th>
+                        <th>재학 기간</th>
+                        <th>구분</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">한양대학교 erica</td>
+                        <td>문화인류학과</td>
+                        <td>2018 - 2024</td>
+                        <td>학사</td>
+                    </tr>
+                    <tr>
+                        <td>디자인테크놀러지</td>
+                        <td>2020 - 2024</td>
+                        <td>다중전공</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">총 학위 수</td>
+                        <td colspan="2">1.5개</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>        
+
+        <section id="contact">
+            <h2>전화번호</h2>
+            <p>📞 <a href="tel:01007120712">010-0712-0712</a></p>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>이메일: <a href="mailto:josm100@naver.com">josm100@naver.com</a></p>
+        <p>&copy; 내가 모든 권리 보유.</p>
+    </footer>
 
 </body>
-
 </html>
