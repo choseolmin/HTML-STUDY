@@ -1,0 +1,27 @@
+#navigation-title {
+  color: red;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #090909;
+}
+header,
+footer {
+  font-size: large;
+  text-align: center;
+  padding: 0.3em 0;
+  background-color: #6e6e6e;
+  color: #0b0b0b;
+}
+nav {
+  background: hwb(143 2% 15%);
+}
+main {
+  background: #f9f9f9;
+}
+aside {
+  background: #0b2ac5;
+}
